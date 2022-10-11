@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "css/style.css">
+        <title> KinoRun </title>
+    </head>
+
+    <body>
+        <header>
+            <span class="header-section" style="margin-right: 5%;">Лаб2. Виконавець: Бочкарьов М. М. ТР-11</span>
+            <span class="header-section"><a href="#registration">Форма реєстрації</a></span>
+            <span class="header-section"><a href="#enter">Форма входу</a></span>
+            <span class="header-section"><a href="#feedback">Форма зворотнього зв'язку</a></span>
+        </header>
+        <div class="fixed-icon"><img src="img/icon-settings2.png" alt="settings" height="60"></div>
+        <div class="content">
+            <div class="container">
+                <div class="block__first">
+                    <div class="block__first-image1"><img src="img/joker.jpg" alt="joker" height="140">
+                    </div>
+                    <span class="block-text">Дії "Джокера" відбуваються в Готем-сіті приблизно 1981 року. Артур Флек – клоун компанії Ha-Ha's, а також стендап-комік. Під час виконання одного із завдань компанії "Ха-Ха" група підлітків-панків краде його вивіску, яку він використовує для реклами магазину. <br> Артур переслідує їх у провулку, але вони накидаються на нього і розбивають вивіску об його голову, після чого...</span>
+
+                    <div class="block__first-image2"><img src="img/interstellar.jpg" alt="interstellar" height="140">
+                    </div>
+                    <p>Наприкінці XXI століття запаси продовольства Землі добігають кінця. Сільськогосподарські культури вимирають, а пильні бурі походять із лякаючою частотою. Уряд відмовився від армії, а школи використовують стандартизоване тестування, щоб визначити, куди піде дитина: до коледжу чи на роботу фермерами для боротьби з нестачею продовольства. Купер, наш головний герой, вдівець і колишній...</p>
+
+                    <div class="block__first-image3"><img src="img/jumanji.webp" alt="jumanji" height="140">
+                    </div>
+                    <p>Випадково виявивши настільну гру з дивною назвою «Джуманджі» Алан Перріш, не знаючи про її надприродні властивості, на очах здивованої подружки переноситься в джунглі. Довгі роки він перебуває в потойбіччі, доки двоє підлітків, що ні про що не підозрюють, не знаходять  у гру і не знімають чарівні чари, при цьому звільняючи Алана з багаторічного ув'язнення. Тепер їм необхідно вирішити...</p>
+                </div>
+                <div class="block__second">
+                    <h2 align="center">Ironman All Movies</h2>
+                    <div class="block__second-image1"><img src="img/ironman1.jpg" alt="ironman1" height="250"></div>
+                    <div class="block__second-image2"><img src="img/ironman2.jpg" alt="ironman2" height="250"></div>
+                    <div class="block__second-image3"><img src="img/ironman3.jpg" alt="ironman3" height="250"></div>
+                </div>
+            </div>
+
+            <div class="registration-block">
+                <div id="registration" style="font-size: 20px; margin-bottom: 15px; text-align: center; font-family: 'Balsamiq Sans', cursive;"><b>Форма реєстрації</b></div>
+                    <form action="#">
+                        <div class="registration-container">
+                            <div class="registration-part" style="padding-left: 20px;">
+                                <div class="registration-icon"><img src="img/usericon.png" alt="usericon" height="150"></div>
+                                <div class="group">
+                                    <label for="firstname" >Ім'я</label><br>
+                                    <input placeholder="Ім'я" id="firstname" type="text" name="firstname">
+                                </div>
+                                <div class="group">
+                                    <label for="surname">Прізвище</label><br>
+                                    <input placeholder="Прізвище" id="surname" type="text" name="surname">
+                                </div>
+                                <div style="margin: 5px 10px">
+                                    <label for="">Стать</label> <br>
+                                    <input type="radio" name="gender" value="male">Чоловіча
+                                    <input type="radio" name="gender" value="female">Жіноча
+                                </div>
+                                <div style="margin: 5px 10px">
+                                    <label for="">Вік</label>
+                                    <input type="number" name="age">
+                                </div>
+                                <div style="margin: 5px 10px">
+                                    <label for="">Дата народження</label>
+                                    <input type="data" name="dr">
+                                </div>
+                                <div class="registration-button" style="text-align: right; margin-top: 37px;">
+                                    <button type="button" name="simple_btn3">Зареєструватися</button>
+                                </div>
+                            </div>
+                            <div class="registration-part">
+                                <div class="group" style="margin-bottom: 25px;">
+                                    <label for="country">Країна проживання</label>
+                                    <select placeholder="Країна проживання" name="country" id="country">
+                                        <option value="ukraine">Україна</option>
+                                        <option value="poland">Польща</option>
+                                        <option value="luxembourg">Люксембург</option>
+                                    </select>
+                                </div>
+                                <div class="group">
+                                    <label for="phone" >Номер телефону</label><br>
+                                    <input placeholder="+38(0XX)XXX-XX-XX" id="phone" type="tel" name="phone">
+                                </div>
+                                <div class="group">
+                                    <label for="social" >Соцмережа</label><br>
+                                    <input placeholder="Посилання на соц. мережу" id="social" type="text" name="socialnetwork">
+                                </div>
+                                <div class="group">
+                                    <label for="mail" >Електронна пошта</label><br>
+                                    <input placeholder="Ел. пошта" id="mail" type="email" name="email">
+                                </div>
+                                <div class="group">
+                                    <label for="password" >Пароль</label><br>
+                                    <input placeholder="Пароль" id="password" type="password" name="password">
+                                </div>
+                                <div style="margin: 20px 10px;padding: 5px;">
+                                    <label for="agreement" >Чи згідні Ви з умовами</label><br>
+                                    <input required placeholder="Пароль" id="agreement" type="checkbox" name="agreement">
+                                </div>
+                                <div class="registration-button" style="text-align: left; margin-top: 23px; margin-left: 15px;">
+                                    <button type="reset" name="simple_btn2">Відміна</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+            </div>
+
+            <div class="entry-block">
+                <div id="enter" style="font-size: 20px; text-align:center; font-family: 'Balsamiq Sans', cursive;"><b>Форма входу</b></div>
+                <div class="entrance-fields">
+                    <form action="#">
+                        <div class="group">
+                            <input placeholder="Логін" id="firstname" type="text" name="firstname">
+                        </div>
+                        <div class="group">
+                            <input placeholder="Пароль" id="surname" type="password" name="surname">
+                        </div>
+                        <div class="entrance-button">
+                            <center><button type="button" name="simple_btn3" style="width: 100px; height: 30px;">Вхід</button></center>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="feedback" class="feedback-block">
+                <div style="font-size: 20px; font-family: 'Balsamiq Sans', cursive;"><b>Форма зворотнього зв'язку</b></div>
+                <form action="#">
+                    <div class="feedback-block-left">
+                        <div class="group2">
+                            <input placeholder="Ім'я" id="firstname" type="text" name="firstname">
+                        </div>
+                        <div class="group2">
+                            <input placeholder="Ел. пошта" id="surname" type="email" name="surname">
+                        </div>
+                        <div class="group2">
+                            <select name="theme" id="theme">
+                                <option value="problem1">Проблема1</option>
+                                <option value="problem2">Проблема2</option>
+                            </select>
+                        </div>
+                        <div class="entrance-button">
+                            <center><button type="button" name="simple_btn4" >Відправити</button></center>
+                        </div>
+                    </div>
+                    <div class="feedback-block-right">
+                        <textarea name="text" placeholder="Повідомлення" cols="60" rows="14"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+        <footer class="bottom-content">
+            <div><a href="https://www.facebook.com" target="_blank"><img src="img/facebook-icon.png" alt="" height="60px"></a></div>
+            <div><a href="https://www.youtube.com" target="_blank"><img src="img/youtube-icon.png" alt="" height="60px"></a></div>
+            <div><a href="https://www.twitch.tv" target="_blank"><img src="img/twitch-icon.png" alt="" height="60px"></a></div>
+            <div><a href="https://www.instagram.com" target="_blank"><img src="img/instagram-icon.png" alt="" height="60px"></a></div>
+            <div><a href="https://www.whatsapp.com" target="_blank"><img src="img/whatsapp-icon.png" alt="" height="60px"></a></div>
+        </footer>
+
+
+    </body>
+</html>
+
