@@ -43,7 +43,8 @@ header {
 }
 .header-section {
     margin-right: 20px;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
 a {
