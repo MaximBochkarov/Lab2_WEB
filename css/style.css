@@ -80,12 +80,6 @@ header a:hover::before {
     z-index: 1000;
 }
 .container {
-    /* opacity: 95%;
-    background-color: #aaa69d;
-    border-radius: 10px;
-    padding: 20px 30px 20px 30px;
-    border: 2px solid #000;
-    height: 1500px; */
     display: flex;
     flex-direction: row;
 }
